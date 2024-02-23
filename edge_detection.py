@@ -3,12 +3,13 @@ import urllib.request
 import ssl
 
 class EdgeDetection:
-    def __init__(self, url):
+    def __init__(self):
         self.url = self.read_url_from_file()
 
     def read_url_from_file(self):
         try:
             with open('url.txt', 'r') as f:
+                
                 return f.read().strip()
         except FileNotFoundError:
             print("URL file not found.")
@@ -33,7 +34,7 @@ class EdgeDetection:
     def detect_edges(self):
         # Load the image
         image = cv2.imread('target_img.jpg')
-
+        image = cv2.resize(image, (900,1200))
         # Convert the image to grayscale
         gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 

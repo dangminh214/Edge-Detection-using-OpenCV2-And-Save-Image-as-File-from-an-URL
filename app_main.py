@@ -14,7 +14,7 @@ class MainApp:
         
         if (handle_url_form.get_saved_url()):
             url = handle_url_form.get_saved_url()
-            edge_detection = EdgeDetection(url)
+            edge_detection = EdgeDetection()
             edge_detection.download_image()
             edge_detection.detect_edges()
         else:

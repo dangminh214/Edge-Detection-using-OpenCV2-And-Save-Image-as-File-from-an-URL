@@ -15,6 +15,11 @@ Here is the result after submitted the Image URL from the client
 ![grafik](https://github.com/dangminh214/Edge-Detection-using-OpenCV2-And-Save-Image-as-File-from-an-URL/assets/51837721/b7fcaaba-7c2c-4b12-bccd-8dc7fef73cf9)
 
 ## To test the app: run command: python .\handle_url_form.py then using 127.0.0.1:5500 in your browser to access the html form, after that, input your URL, the result will be shown in the two different window (you can see it in your taskbar)
+![image](https://github.com/dangminh214/Edge-Detection-using-OpenCV2-And-Save-Image-as-File-from-an-URL/assets/51837721/4e97b0ae-c90d-4260-92a2-a1d784d49ca2)
+![image](https://github.com/dangminh214/Edge-Detection-using-OpenCV2-And-Save-Image-as-File-from-an-URL/assets/51837721/e8db63d5-a432-4c04-9c50-2472fefcdae2)
+
+
+
 
 
 
